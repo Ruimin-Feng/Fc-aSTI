@@ -1,9 +1,9 @@
 # Fc-aSTI: An improved asymmetric susceptibility tensor imaging model with frequency offset correction  
 Fc-aSTI is a new STI reconstruction method based on the frequency model: _f_= D* X+f_offset
 
-Fc-aSTI releases the symmetry constraint imposed on susceptibility tensors and eliminates the orientation-independent frequency shift to mitigate the bias between the current asymmetric STI model and the measured resonance frequency shift.  
+Fc-aSTI releases the symmetry constraint imposed on susceptibility tensors and separates the non-susceptibility-related frequency offset from total measured resonance frequency shift.  
 
-This repository contains implementations of Fc-aSTI model and the compared STI reconstruction models (STI, Fc-STI, aSTI).    
+This repository contains implementations of Fc-aSTI model and the compared STI reconstruction models in ablation experiments (STI, Fc-STI, aSTI).    
 
 ## Required dependencies: 
 1. [STI_Suite V3.0 toolbox](https://people.eecs.berkeley.edu/~chunlei.liu/software.html)

@@ -3,7 +3,7 @@ Fc-aSTI is a new STI reconstruction method based on the frequency model: _f_= D*
 
 Fc-aSTI releases the symmetry constraint imposed on susceptibility tensors and interprets the orientation-independent part of non-susceptibility-related frequency shifts.  
 
-This repository contains implementations of Fc-aSTI model and the compared STI reconstruction models(STI, Fc-STI, aSTI).    
+This repository contains implementations of Fc-aSTI model and the compared STI reconstruction models (STI, Fc-STI, aSTI).    
 
 ## Required dependencies: 
 1. [STI_Suite V3.0 toolbox](https://people.eecs.berkeley.edu/~chunlei.liu/software.html)
@@ -32,10 +32,10 @@ For data acquired with 3D multi-echo GRE sequences, you should do the following 
  %This function is to solve Fc_aSTI  according to the four steps of Figure 1 in the paper:  
  % An improved asymmetric susceptibility tensor imaging model with frequency offset correction  
  % (Feng et al)  
- % tissue_phase: H*W*D*NumDir, multi-orientation phase data  
- % H_Matrix: NumDir*3, direction vector of the magnetic field  
- % mask: H*W*D, brain mask  
- % offset_mask: H*W*D, mask that defines the regions where frequency offset will be considered.  
+ % tissue_phase: H×W×D×NumDir, multi-orientation phase data  
+ % H_Matrix: NumDir×3, direction vector of the magnetic field  
+ % mask: H×W×D, brain mask  
+ % offset_mask: H×W×D, mask that defines the regions where frequency offset will be considered.  
  % iter_num: number of iterations, 0 for no iteration  
  % outpath: outpath directory  
  
